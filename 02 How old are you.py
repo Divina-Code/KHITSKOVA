@@ -1,11 +1,13 @@
 print("Hello,user")
 
 user_name = input("What is your name?   ")
-
-print('Hello',user_name)
-
-user_year = int(  input("When you was born?  "))
-print("nice year,", user_year)
+print('Hello',user_name, "in your name ",len(user_name), 'letters')
 
 
-print(2020-user_year)
+user_year = int(input("When you was born?  "))
+if len(str(user_year))==4:
+  print("nice year,", user_year)
+  print(2020-user_year)
+else:
+    print("You make a little mistake")
+
