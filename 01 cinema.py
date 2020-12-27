@@ -5,9 +5,9 @@ print('Hello',user_name, "in your name ",len(user_name), 'letters')
 
 
 user_year = int(input("When you was born?  "))
-if len(str(user_year))==18
-    print("nice year,", user_year)
-    print(2020-user_year)
+if 2020-user_year>=18:
+    print(user_name+',you can watch a action movie')
 else:
-    print("watch the Comedy")
+    print(user_name+',you can watch a  comedy')
+
 
