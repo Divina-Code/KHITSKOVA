@@ -1,5 +1,5 @@
 
-isGuessed=False
+isGuessed=7
 
 while isGuessed!=7:
     puzzel="В вазе было 12 конфет. 5 конфет съели. Сколько конфет осталось?"
